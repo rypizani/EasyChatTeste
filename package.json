@@ -1,0 +1,22 @@
+{
+  "name": "chateasy",
+  "version": "1.0.0",
+  "description": "Aplicativo de bate-papo em tempo real com salas.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Ryan Pizani",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "node": "^19.2.0",
+    "nodemon": "^2.0.20"
+  }
+}
